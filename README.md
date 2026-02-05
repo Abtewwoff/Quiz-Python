@@ -1,5 +1,3 @@
-# Quiz-Python
-
 FR : 
 
 # 🧠 Quiz Python
