@@ -59,10 +59,6 @@ Ce dépôt est mis à jour régulièrement suivant les phases de notre apprentis
 
 PT : 
 
-Voici la traduction en portugais, adaptée pour un répertoire GitHub professionnel :
-
----
-
 # 🧠 Quiz Python
 
 O **Quiz Master** é uma aplicação de jogo de perguntas e respostas desenvolvida em Python. Este projeto é realizado em contexto escolar e encontra-se atualmente **em desenvolvimento**. O código e as funcionalidades são enriquecidos à medida que progredimos. É também importante notar que este projeto terá "pushes" regulares no código para disponibilizar dois idiomas: FR / PT.
