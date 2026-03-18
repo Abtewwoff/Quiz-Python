@@ -77,7 +77,7 @@ def jouer():
     print("\nPartie terminee !")
     print("Score :", points, "/", len(questions_jeu))
 
-    sauvegarder_score("pontuacoes.json", nom, points, len(questions_jeu), diff)
+    sauvegarder_score("pontuacoes.json", nom, points, len(questions_jeu), diff, cat)
 
 def main():
     while True:
