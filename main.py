@@ -12,14 +12,18 @@ def jouer():
     nom = valider_texte("Votre nom : ")
 
     print("\nChoisissez une categorie :")
-    print("1 - Mathematiques")
-    print("2 - Geographie")
-    print("3 - Informatique")
-    print("4 - Toutes")
-    choix_cat = valider_numero("Votre choix : ", 1, 4)
-    if choix_cat == 1: cat = "Mathématiques"
-    elif choix_cat == 2: cat = "Géographie"
-    elif choix_cat == 3: cat = "Informatique"
+    print("1 - Geographie")
+    print("2 - Histoire")
+    print("3 - Science")
+    print("4 - Litterature")
+    print("5 - General")
+    print("6 - Toutes")
+    choix_cat = valider_numero("Votre choix : ", 1, 6)
+    if choix_cat == 1: cat = "Geografia"
+    elif choix_cat == 2: cat = "História"
+    elif choix_cat == 3: cat = "Ciência"
+    elif choix_cat == 4: cat = "Literatura"
+    elif choix_cat == 5: cat = "Geral"
     else: cat = "Toutes"
 
     print("\nChoisissez une difficulte :")
@@ -29,8 +33,8 @@ def jouer():
     print("4 - Toutes")
     choix_diff = valider_numero("Votre choix : ", 1, 4)
     if choix_diff == 1: diff = "facil"
-    elif choix_diff == 2: diff = "media"
-    elif choix_diff == 3: diff = "dificil"
+    elif choix_diff == 2: diff = "médio"
+    elif choix_diff == 3: diff = "difícil"
     else: diff = "Toutes"
 
     questions_jeu = filtrer_questions(questions, cat, diff)
