@@ -11,13 +11,14 @@ def lire_json(fichier):
         print("Fichier introuvable")
         return []
 
-def sauvegarder_score(fichier, nom, points, total, diff):
+def sauvegarder_score(fichier, nom, points, total, diff, cat):
     scores = lire_json(fichier)
     nouveau = {
         "nom": nom,
         "points": points,
         "total": total,
-        "diff": diff
+        "diff": diff,
+        "cat": cat
     }
     scores.append(nouveau)
     f = open(fichier, "w", encoding="utf-8")
@@ -47,6 +48,6 @@ def afficher_classement(fichier):
     print("\n--- CLASSEMENT TOP 10 ---")
     i = 1
     for s in scores[:10]:
-        print(i, "-", s["nom"], ":", s["points"], "/", s["total"], "(", s["diff"], ")")
+        print(i, "-", s["nom"], ":", s["points"], "/", s["total"], "(", s["diff"], "-", s.get("cat", "Toutes"), ")")
         i = i + 1
     print("-------------------------\n")
