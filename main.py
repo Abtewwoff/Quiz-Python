@@ -60,12 +60,12 @@ def jouer():
         rep = valider_numero("Votre reponse (1-4) : ", 1, 4)
         index_rep = rep - 1
 
-        if index_rep == q["resposta"]:
+        if rep == q["resposta"]:
             print("\nCorrect !")
             points = points + 1
         else:
             print("\nFaux.")
-            bon_index = q["resposta"]
+            bon_index = q["resposta"] - 1
             print("La reponse etait :", q["opcoes"][bon_index])
 
         if "explicacao" in q:
