@@ -94,4 +94,5 @@ def main():
             print("Fin du jeu.")
             break
 
-main()
+if __name__ == "__main__":
+    main()

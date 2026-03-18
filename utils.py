@@ -11,13 +11,13 @@ def valider_numero(message, mini, maxi):
             if nombre >= mini and nombre <= maxi:
                 return nombre
             else:
-                print("Erreur : nombre doit être entre", mini, "et", maxi)
+                print("faut que le nombre soit entre", mini, "et", maxi)
         except ValueError:
-            print("Erreur : Entrez un chiffre valide")
+            print("faut Entrez un nombre valide")
 
 def valider_texte(message):
     while True:
         saisie = input(message).strip()
         if saisie != "":
             return saisie
-        print("Erreur : ne peut pas être vide")
+        print("Ceci ne peut pas être vide")
