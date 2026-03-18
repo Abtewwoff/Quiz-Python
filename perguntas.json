@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "pergunta": "Qual é a capital de Portugal?",
+        "opcoes": [
+            "Porto",
+            "Lisboa",
+            "Coimbra",
+            "Braga"
+        ],
+        "resposta": 2,
+        "categoria": "Geografia",
+        "dificuldade": "facil",
+        "explicacao": "Lisboa é a capital e a maior cidade de Portuga."
+    },
+    {
+        "id": 2,
+        "pergunta": " Qual o maior país do mundo?",
+        "opcoes": [
+            "Rússia",
+            "França",
+            "Finlândia",
+            "Angola"
+        ],
+        "resposta": 1,
+        "categoria": "Geografia",
+        "dificuldade": "médio",
+        "explicacao": "A Rússia é, com grande vantagem, o maior país do mundo em extensão territorial."
+    },
+    {
+        "id": 3,
+        "pergunta": "Em que ano terminou a Segunda Guerra Mundial?",
+        "opcoes": [
+            "1943",
+            "1944",
+            "1945",
+            "1946"
+        ],
+        "resposta": 3,
+        "categoria": "História",
+        "dificuldade": "facil",
+        "explicacao": "A Segunda Guerra Mundial terminou em 1945, com a rendição da Alemanha em maio e do Japão em setembro."
+    },
+    {
+        "id": 4,
+        "pergunta": "Qual é o maior oceano do mundo?",
+        "opcoes": [
+            "Oceano Atlântico",
+            "Oceano Índico",
+            "Oceano Ártico",
+            "Oceano Pacífico"
+        ],
+        "resposta": 4,
+        "categoria": "Geografia",
+        "dificuldade": "médio",
+        "explicacao": "O Oceano Pacífico é o maior oceano do mundo, cobrindo mais de 165 milhões de km²."
+    },
+    {
+        "id": 5,
+        "pergunta": "Quem escreveu 'Os Lusíadas'?",
+        "opcoes": [
+            "Fernando Pessoa",
+            "Luís de Camões",
+            "Eça de Queirós",
+            "José Saramago"
+        ],
+        "resposta": 2,
+        "categoria": "Literatura",
+        "dificuldade": "difícil",
+        "explicacao": "Os Lusíadas foi escrito por Luís de Camões e publicado em 1572. É a maior obra da literatura portuguesa."
+    },
+    {
+        "id": 6,
+        "pergunta": "Qual é o símbolo químico do ouro?",
+        "opcoes": [
+            "Go",
+            "Or",
+            "Au",
+            "Ag"
+        ],
+        "resposta": 3,
+        "categoria": "Ciência",
+        "dificuldade": "médio",
+        "explicacao": "Au vem do latim 'Aurum'. O ouro é um metal precioso com número atómico 79."
+    },
+    {
+        "id": 7,
+        "pergunta": "Quantos dias tem um ano?",
+        "opcoes": [
+            "239",
+            "366",
+            "365",
+            "494"
+        ],
+        "resposta": 3,
+        "categoria": "Geral",
+        "dificuldade": "facil",
+        "explicacao": "Um ano no calendário gregoriano, adotado oficialmente em quase todo o mundo, pode ter 365 dias (ano comum) ou 366 dias (ano bissexto).."
+    },
+    {
+        "id": 8,
+        "pergunta": "Qual é o animal terrestre mais rápido do mundo?",
+        "opcoes": [
+            "Leão",
+            "Guepardo",
+            "Cavalo",
+            "Antílope"
+        ],
+        "resposta": 2,
+        "categoria": "Ciência",
+        "dificuldade": "difícil",
+        "explicacao": "O guepardo pode atingir velocidades de até 120 km/h em sprints curtos, sendo o animal terrestre mais rápido."
+    },
+    {
+        "id": 9,
+        "pergunta": "Em que continente fica o Egito?",
+        "opcoes": [
+            "Ásia",
+            "Europa",
+            "América",
+            "África"
+        ],
+        "resposta": 4,
+        "categoria": "Geografia",
+        "dificuldade": "facil",
+        "explicacao": "O Egito fica no nordeste de África, embora a Península do Sinai seja geograficamente parte da Ásia."
+    },
+    {
+        "id": 10,
+        "pergunta": "Qual é a fórmula química da água?",
+        "opcoes": [
+            "HO",
+            "H2O",
+            "H2O2",
+            "OH2"
+        ],
+        "resposta": 2,
+        "categoria": "Ciência",
+        "dificuldade": "média",
+        "explicacao": "A água é composta por 2 átomos de hidrogénio e 1 átomo de oxigénio, daí a fórmula H2O."
+    }
+]
