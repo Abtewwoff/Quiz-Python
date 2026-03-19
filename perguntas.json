@@ -11,11 +11,11 @@
         "resposta": 2,
         "categoria": "Geografia",
         "dificuldade": "facil",
-        "explicacao": "Lisboa é a capital e a maior cidade de Portuga."
+        "explicacao": "Lisboa é a capital e a maior cidade de Portugal."
     },
     {
         "id": 2,
-        "pergunta": " Qual o maior país do mundo?",
+        "pergunta": "Qual o maior país do mundo?",
         "opcoes": [
             "Rússia",
             "França",
@@ -95,7 +95,7 @@
         "resposta": 3,
         "categoria": "Geral",
         "dificuldade": "facil",
-        "explicacao": "Um ano no calendário gregoriano, adotado oficialmente em quase todo o mundo, pode ter 365 dias (ano comum) ou 366 dias (ano bissexto).."
+        "explicacao": "Um ano no calendário gregoriano pode ter 365 dias (ano comum) ou 366 dias (ano bissexto)."
     },
     {
         "id": 8,
@@ -138,8 +138,7 @@
         "categoria": "Ciência",
         "dificuldade": "médio",
         "explicacao": "A água é composta por 2 átomos de hidrogénio e 1 átomo de oxigénio, daí a fórmula H2O."
-    }
-,
+    },
     {
         "id": 11,
         "pergunta": "Qual é o maior deserto do mundo?",
@@ -419,5 +418,705 @@
         "categoria": "Geral",
         "dificuldade": "difícil",
         "explicacao": "A Rússia tem 11 fusos horários devido à sua enorme extensão territorial."
+    },
+    {
+        "id": 31,
+        "pergunta": "Qual é a capital de França?",
+        "opcoes": [
+            "Lyon",
+            "Marselha",
+            "Paris",
+            "Bordéus"
+        ],
+        "resposta": 3,
+        "categoria": "Geografia",
+        "dificuldade": "facil",
+        "explicacao": "Paris é a capital e maior cidade de França, conhecida como a 'Cidade Luz'."
+    },
+    {
+        "id": 32,
+        "pergunta": "Qual é o rio mais longo do mundo?",
+        "opcoes": [
+            "Rio Nilo",
+            "Rio Amazonas",
+            "Rio Yangtzé",
+            "Rio Mississippi"
+        ],
+        "resposta": 1,
+        "categoria": "Geografia",
+        "dificuldade": "facil",
+        "explicacao": "O Rio Nilo, com cerca de 6 650 km, é geralmente considerado o rio mais longo do mundo."
+    },
+    {
+        "id": 33,
+        "pergunta": "Em que país fica a Torre Eiffel?",
+        "opcoes": [
+            "Itália",
+            "Espanha",
+            "França",
+            "Bélgica"
+        ],
+        "resposta": 3,
+        "categoria": "Geografia",
+        "dificuldade": "facil",
+        "explicacao": "A Torre Eiffel fica em Paris, França, e foi construída em 1889."
+    },
+    {
+        "id": 34,
+        "pergunta": "Qual é o país com mais habitantes do mundo?",
+        "opcoes": [
+            "Estados Unidos",
+            "China",
+            "Índia",
+            "Indonésia"
+        ],
+        "resposta": 3,
+        "categoria": "Geografia",
+        "dificuldade": "médio",
+        "explicacao": "A Índia ultrapassou a China em 2023 e tornou-se o país mais populoso do mundo."
+    },
+    {
+        "id": 35,
+        "pergunta": "Qual é a montanha mais alta do mundo?",
+        "opcoes": [
+            "K2",
+            "Monte Everest",
+            "Kilimanjaro",
+            "Mont Blanc"
+        ],
+        "resposta": 2,
+        "categoria": "Geografia",
+        "dificuldade": "médio",
+        "explicacao": "O Monte Everest, na fronteira entre Nepal e China, tem 8 849 m de altitude."
+    },
+    {
+        "id": 36,
+        "pergunta": "Qual é o menor país do mundo?",
+        "opcoes": [
+            "Mónaco",
+            "San Marino",
+            "Liechtenstein",
+            "Vaticano"
+        ],
+        "resposta": 4,
+        "categoria": "Geografia",
+        "dificuldade": "difícil",
+        "explicacao": "O Vaticano, com apenas 0,44 km², é o menor país do mundo, localizado dentro de Roma."
+    },
+    {
+        "id": 37,
+        "pergunta": "Qual país tem o maior número de ilhas do mundo?",
+        "opcoes": [
+            "Filipinas",
+            "Indonésia",
+            "Suécia",
+            "Noruega"
+        ],
+        "resposta": 3,
+        "categoria": "Geografia",
+        "dificuldade": "difícil",
+        "explicacao": "A Suécia tem cerca de 221 800 ilhas, o maior número de qualquer país do mundo."
+    },
+    {
+        "id": 38,
+        "pergunta": "Qual é a capital da Austrália?",
+        "opcoes": [
+            "Sydney",
+            "Melbourne",
+            "Brisbane",
+            "Camberra"
+        ],
+        "resposta": 4,
+        "categoria": "Geografia",
+        "dificuldade": "difícil",
+        "explicacao": "Camberra é a capital da Austrália. Muitos pensam que é Sydney, mas essa é a maior cidade."
+    },
+    {
+        "id": 39,
+        "pergunta": "Qual é o lago de água doce maior do mundo?",
+        "opcoes": [
+            "Lago Titicaca",
+            "Lago Superior",
+            "Lago Vitória",
+            "Lago Baikal"
+        ],
+        "resposta": 2,
+        "categoria": "Geografia",
+        "dificuldade": "difícil",
+        "explicacao": "O Lago Superior, na fronteira entre os EUA e o Canadá, é o maior lago de água doce em superfície."
+    },
+    {
+        "id": 40,
+        "pergunta": "Em que país se encontra o Deserto de Atacama?",
+        "opcoes": [
+            "Argentina",
+            "Peru",
+            "Chile",
+            "Bolívia"
+        ],
+        "resposta": 3,
+        "categoria": "Geografia",
+        "dificuldade": "difícil",
+        "explicacao": "O Deserto de Atacama, no norte do Chile, é um dos lugares mais áridos da Terra."
+    },
+    {
+        "id": 41,
+        "pergunta": "Qual foi o navio que naufragou em 1912 após colidir com um iceberg?",
+        "opcoes": [
+            "Lusitânia",
+            "Titanic",
+            "Bismarck",
+            "Olympic"
+        ],
+        "resposta": 2,
+        "categoria": "História",
+        "dificuldade": "facil",
+        "explicacao": "O RMS Titanic naufragou na madrugada de 15 de abril de 1912 no Atlântico Norte."
+    },
+    {
+        "id": 42,
+        "pergunta": "Quem foi a primeira mulher a ganhar um Prémio Nobel?",
+        "opcoes": [
+            "Simone de Beauvoir",
+            "Marie Curie",
+            "Florence Nightingale",
+            "Amelia Earhart"
+        ],
+        "resposta": 2,
+        "categoria": "História",
+        "dificuldade": "facil",
+        "explicacao": "Marie Curie ganhou o Nobel de Física em 1903 e, mais tarde, o de Química em 1911."
+    },
+    {
+        "id": 43,
+        "pergunta": "Em que ano chegou o Homem à Lua pela primeira vez?",
+        "opcoes": [
+            "1965",
+            "1967",
+            "1969",
+            "1971"
+        ],
+        "resposta": 3,
+        "categoria": "História",
+        "dificuldade": "facil",
+        "explicacao": "Neil Armstrong e Buzz Aldrin pousaram na Lua a 20 de julho de 1969, na missão Apollo 11."
+    },
+    {
+        "id": 44,
+        "pergunta": "Qual foi o primeiro país a conceder o direito de voto às mulheres?",
+        "opcoes": [
+            "Reino Unido",
+            "França",
+            "Nova Zelândia",
+            "Estados Unidos"
+        ],
+        "resposta": 3,
+        "categoria": "História",
+        "dificuldade": "médio",
+        "explicacao": "A Nova Zelândia foi o primeiro país a conceder o sufrágio feminino em 1893."
+    },
+    {
+        "id": 45,
+        "pergunta": "Em que século ocorreu a Revolução Francesa?",
+        "opcoes": [
+            "Século XVII",
+            "Século XVIII",
+            "Século XIX",
+            "Século XVI"
+        ],
+        "resposta": 2,
+        "categoria": "História",
+        "dificuldade": "médio",
+        "explicacao": "A Revolução Francesa começou em 1789, no século XVIII."
+    },
+    {
+        "id": 46,
+        "pergunta": "Em que ano foi assinada a Magna Carta?",
+        "opcoes": [
+            "1066",
+            "1215",
+            "1348",
+            "1492"
+        ],
+        "resposta": 2,
+        "categoria": "História",
+        "dificuldade": "difícil",
+        "explicacao": "A Magna Carta foi assinada pelo rei João I de Inglaterra em 1215, limitando o poder real."
+    },
+    {
+        "id": 47,
+        "pergunta": "Qual imperador romano adotou o Cristianismo como religião do Império?",
+        "opcoes": [
+            "Júlio César",
+            "Augusto",
+            "Nero",
+            "Constantino I"
+        ],
+        "resposta": 4,
+        "categoria": "História",
+        "dificuldade": "difícil",
+        "explicacao": "Constantino I emitiu o Edito de Milão em 313 d.C., legalizando o Cristianismo, e mais tarde tornou-o religião oficial."
+    },
+    {
+        "id": 48,
+        "pergunta": "Qual foi a batalha decisiva que encerrou as Guerras Napoleónicas?",
+        "opcoes": [
+            "Batalha de Trafalgar",
+            "Batalha de Borodino",
+            "Batalha de Waterloo",
+            "Batalha de Leipzig"
+        ],
+        "resposta": 3,
+        "categoria": "História",
+        "dificuldade": "difícil",
+        "explicacao": "A Batalha de Waterloo, em junho de 1815, marcou a derrota definitiva de Napoleão Bonaparte."
+    },
+    {
+        "id": 49,
+        "pergunta": "Qual civilização inventou o papel?",
+        "opcoes": [
+            "Egípcia",
+            "Romana",
+            "Chinesa",
+            "Grega"
+        ],
+        "resposta": 3,
+        "categoria": "História",
+        "dificuldade": "difícil",
+        "explicacao": "O papel foi inventado na China durante a Dinastia Han, por volta do século II a.C."
+    },
+    {
+        "id": 50,
+        "pergunta": "Em que país ocorreu a Revolução Bolchevique de 1917?",
+        "opcoes": [
+            "Alemanha",
+            "Rússia",
+            "Polónia",
+            "Hungria"
+        ],
+        "resposta": 2,
+        "categoria": "História",
+        "dificuldade": "difícil",
+        "explicacao": "A Revolução de Outubro de 1917, liderada por Lenine, transformou a Rússia no primeiro Estado comunista."
+    },
+    {
+        "id": 51,
+        "pergunta": "Quem escreveu 'Harry Potter'?",
+        "opcoes": [
+            "Stephenie Meyer",
+            "J.R.R. Tolkien",
+            "J.K. Rowling",
+            "C.S. Lewis"
+        ],
+        "resposta": 3,
+        "categoria": "Literatura",
+        "dificuldade": "facil",
+        "explicacao": "A série Harry Potter foi escrita pela autora britânica J.K. Rowling, com o primeiro livro publicado em 1997."
+    },
+    {
+        "id": 52,
+        "pergunta": "Em que obra aparece o personagem Robinson Crusoe?",
+        "opcoes": [
+            "Gulliver's Travels",
+            "Robinson Crusoe",
+            "Moby Dick",
+            "Tom Jones"
+        ],
+        "resposta": 2,
+        "categoria": "Literatura",
+        "dificuldade": "facil",
+        "explicacao": "Robinson Crusoe é o protagonista do romance homónimo de Daniel Defoe, publicado em 1719."
+    },
+    {
+        "id": 53,
+        "pergunta": "Qual é a língua original em que foi escrito 'Dom Quixote'?",
+        "opcoes": [
+            "Português",
+            "Francês",
+            "Italiano",
+            "Espanhol"
+        ],
+        "resposta": 4,
+        "categoria": "Literatura",
+        "dificuldade": "facil",
+        "explicacao": "Dom Quixote foi escrito em espanhol por Miguel de Cervantes no século XVII."
+    },
+    {
+        "id": 54,
+        "pergunta": "Qual escritor português ganhou o Prémio Nobel de Literatura em 1998?",
+        "opcoes": [
+            "Fernando Pessoa",
+            "Eça de Queirós",
+            "José Saramago",
+            "Sophia de Mello Breyner"
+        ],
+        "resposta": 3,
+        "categoria": "Literatura",
+        "dificuldade": "médio",
+        "explicacao": "José Saramago foi o único escritor de língua portuguesa a ganhar o Nobel de Literatura."
+    },
+    {
+        "id": 55,
+        "pergunta": "Em que cidade se passa a maior parte de 'A Relíquia' de Eça de Queirós?",
+        "opcoes": [
+            "Lisboa",
+            "Porto",
+            "Paris",
+            "Jerusalém"
+        ],
+        "resposta": 4,
+        "categoria": "Literatura",
+        "dificuldade": "médio",
+        "explicacao": "Parte central de 'A Relíquia' (1887) decorre em Jerusalém, no tempo de Jesus Cristo."
+    },
+    {
+        "id": 56,
+        "pergunta": "Qual é o nome completo da obra épica de Homero sobre a Guerra de Troia?",
+        "opcoes": [
+            "Odisseia",
+            "Eneida",
+            "Ilíada",
+            "Teogonia"
+        ],
+        "resposta": 3,
+        "categoria": "Literatura",
+        "dificuldade": "difícil",
+        "explicacao": "A Ilíada narra episódios da Guerra de Troia; a Odisseia conta o regresso de Ulisses. Ambas são de Homero."
+    },
+    {
+        "id": 57,
+        "pergunta": "Qual é o nome da baleia branca em 'Moby Dick'?",
+        "opcoes": [
+            "Leviatã",
+            "Moby Dick",
+            "Pequod",
+            "Ahab"
+        ],
+        "resposta": 2,
+        "categoria": "Literatura",
+        "dificuldade": "difícil",
+        "explicacao": "Moby Dick é o nome da cachalote branca que o capitão Ahab obsessivamente persegue no romance de Herman Melville."
+    },
+    {
+        "id": 58,
+        "pergunta": "Em que obra de Dostoiévski o protagonista mata uma velha usurária?",
+        "opcoes": [
+            "O Idiota",
+            "Os Irmãos Karamazov",
+            "Crime e Castigo",
+            "Os Demónios"
+        ],
+        "resposta": 3,
+        "categoria": "Literatura",
+        "dificuldade": "difícil",
+        "explicacao": "Em 'Crime e Castigo' (1866), Raskólnikov comete o assassínio e debate-se com a culpa e a redenção."
+    },
+    {
+        "id": 59,
+        "pergunta": "Quem é o autor de '1984'?",
+        "opcoes": [
+            "Aldous Huxley",
+            "Ray Bradbury",
+            "George Orwell",
+            "H.G. Wells"
+        ],
+        "resposta": 3,
+        "categoria": "Literatura",
+        "dificuldade": "difícil",
+        "explicacao": "'1984' foi escrito por George Orwell e publicado em 1949. É uma distopia sobre um regime totalitário."
+    },
+    {
+        "id": 60,
+        "pergunta": "Quantos planetas tem o Sistema Solar?",
+        "opcoes": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "resposta": 2,
+        "categoria": "Ciência",
+        "dificuldade": "facil",
+        "explicacao": "Desde 2006, o Sistema Solar tem 8 planetas oficiais após Plutão ser reclassificado como planeta anão."
+    },
+    {
+        "id": 61,
+        "pergunta": "Qual é o órgão responsável pela bomba do sangue no corpo humano?",
+        "opcoes": [
+            "Pulmão",
+            "Fígado",
+            "Coração",
+            "Rim"
+        ],
+        "resposta": 3,
+        "categoria": "Ciência",
+        "dificuldade": "facil",
+        "explicacao": "O coração é o músculo responsável por bombear o sangue por todo o organismo."
+    },
+    {
+        "id": 62,
+        "pergunta": "A que velocidade viaja a luz no vácuo (aproximadamente)?",
+        "opcoes": [
+            "300 000 km/s",
+            "150 000 km/s",
+            "500 000 km/s",
+            "1 000 000 km/s"
+        ],
+        "resposta": 1,
+        "categoria": "Ciência",
+        "dificuldade": "facil",
+        "explicacao": "A velocidade da luz no vácuo é de aproximadamente 299 792 km/s, arredondada para 300 000 km/s."
+    },
+    {
+        "id": 63,
+        "pergunta": "Qual é a unidade de medida de temperatura no Sistema Internacional?",
+        "opcoes": [
+            "Grau Celsius",
+            "Grau Fahrenheit",
+            "Kelvin",
+            "Caloria"
+        ],
+        "resposta": 3,
+        "categoria": "Ciência",
+        "dificuldade": "facil",
+        "explicacao": "No Sistema Internacional de Unidades (SI) a unidade de temperatura é o Kelvin (K)."
+    },
+    {
+        "id": 64,
+        "pergunta": "Qual é o número atómico do carbono?",
+        "opcoes": [
+            "4",
+            "6",
+            "8",
+            "12"
+        ],
+        "resposta": 2,
+        "categoria": "Ciência",
+        "dificuldade": "médio",
+        "explicacao": "O carbono tem 6 protões no núcleo, o que define o seu número atómico."
+    },
+    {
+        "id": 65,
+        "pergunta": "Qual planeta é conhecido pelos seus anéis visíveis?",
+        "opcoes": [
+            "Júpiter",
+            "Urano",
+            "Saturno",
+            "Neptuno"
+        ],
+        "resposta": 3,
+        "categoria": "Ciência",
+        "dificuldade": "médio",
+        "explicacao": "Saturno é famoso pelos seus extensos anéis compostos maioritariamente por gelo e rocha."
+    },
+    {
+        "id": 66,
+        "pergunta": "Qual é o processo pelo qual as plantas produzem o seu próprio alimento?",
+        "opcoes": [
+            "Respiração",
+            "Fotossíntese",
+            "Osmose",
+            "Fermentação"
+        ],
+        "resposta": 2,
+        "categoria": "Ciência",
+        "dificuldade": "médio",
+        "explicacao": "Na fotossíntese, as plantas convertem luz solar, água e CO₂ em glicose e oxigénio."
+    },
+    {
+        "id": 67,
+        "pergunta": "Qual é o nome da partícula subatómica sem carga elétrica?",
+        "opcoes": [
+            "Protão",
+            "Eletrão",
+            "Neutrino",
+            "Neutrão"
+        ],
+        "resposta": 4,
+        "categoria": "Ciência",
+        "dificuldade": "difícil",
+        "explicacao": "O neutrão é a partícula subatómica presente no núcleo atómico que não possui carga elétrica."
+    },
+    {
+        "id": 68,
+        "pergunta": "Qual é o nome do processo pelo qual um sólido passa diretamente para gás?",
+        "opcoes": [
+            "Evaporação",
+            "Fusão",
+            "Sublimação",
+            "Condensação"
+        ],
+        "resposta": 3,
+        "categoria": "Ciência",
+        "dificuldade": "difícil",
+        "explicacao": "A sublimação é a mudança de estado direta do sólido para o gasoso, sem passar pelo estado líquido. Exemplo: o gelo seco (CO₂)."
+    },
+    {
+        "id": 69,
+        "pergunta": "Quantos cromossomas tem uma célula humana normal?",
+        "opcoes": [
+            "23",
+            "44",
+            "46",
+            "48"
+        ],
+        "resposta": 3,
+        "categoria": "Ciência",
+        "dificuldade": "difícil",
+        "explicacao": "As células humanas somáticas contêm 46 cromossomas, organizados em 23 pares."
+    },
+    {
+        "id": 70,
+        "pergunta": "Qual é o elemento mais abundante no universo?",
+        "opcoes": [
+            "Hélio",
+            "Oxigénio",
+            "Carbono",
+            "Hidrogénio"
+        ],
+        "resposta": 4,
+        "categoria": "Ciência",
+        "dificuldade": "difícil",
+        "explicacao": "O hidrogénio representa cerca de 75% da massa ordinária do universo."
+    },
+    {
+        "id": 71,
+        "pergunta": "Quantas cores tem o arco-íris?",
+        "opcoes": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "resposta": 3,
+        "categoria": "Geral",
+        "dificuldade": "facil",
+        "explicacao": "O arco-íris tem 7 cores: vermelho, laranja, amarelo, verde, azul, anil e violeta."
+    },
+    {
+        "id": 72,
+        "pergunta": "Qual é o animal símbolo da Austrália?",
+        "opcoes": [
+            "Coala",
+            "Emú",
+            "Canguru",
+            "Wombat"
+        ],
+        "resposta": 3,
+        "categoria": "Geral",
+        "dificuldade": "facil",
+        "explicacao": "O canguru é o animal mais emblemático da Austrália e aparece no brasão de armas do país."
+    },
+    {
+        "id": 73,
+        "pergunta": "De que material é feita a estatueta do Óscar?",
+        "opcoes": [
+            "Prata maciça",
+            "Bronze dourado",
+            "Ouro maciço",
+            "Estanho banhado a ouro"
+        ],
+        "resposta": 4,
+        "categoria": "Geral",
+        "dificuldade": "facil",
+        "explicacao": "A estatueta do Óscar é feita de zamac (liga metálica) banhado a ouro de 24 quilates."
+    },
+    {
+        "id": 74,
+        "pergunta": "Qual é a moeda oficial do Japão?",
+        "opcoes": [
+            "Won",
+            "Yuan",
+            "Iene",
+            "Baht"
+        ],
+        "resposta": 3,
+        "categoria": "Geral",
+        "dificuldade": "médio",
+        "explicacao": "A moeda oficial do Japão é o Iene (¥), utilizado desde 1871."
+    },
+    {
+        "id": 75,
+        "pergunta": "Quantos jogadores compõem uma equipa de futebol em campo?",
+        "opcoes": [
+            "9",
+            "10",
+            "11",
+            "12"
+        ],
+        "resposta": 3,
+        "categoria": "Geral",
+        "dificuldade": "médio",
+        "explicacao": "Cada equipa de futebol tem 11 jogadores em campo, incluindo o guarda-redes."
+    },
+    {
+        "id": 76,
+        "pergunta": "Qual é o nome do processo de transformação de uvas em vinho?",
+        "opcoes": [
+            "Destilação",
+            "Fermentação",
+            "Pasteurização",
+            "Osmose"
+        ],
+        "resposta": 2,
+        "categoria": "Geral",
+        "dificuldade": "médio",
+        "explicacao": "O vinho resulta da fermentação alcoólica do sumo de uva por leveduras que convertem o açúcar em álcool."
+    },
+    {
+        "id": 77,
+        "pergunta": "Qual é o nome do inventor do telefone?",
+        "opcoes": [
+            "Nikola Tesla",
+            "Thomas Edison",
+            "Alexander Graham Bell",
+            "Guglielmo Marconi"
+        ],
+        "resposta": 3,
+        "categoria": "Geral",
+        "dificuldade": "difícil",
+        "explicacao": "Alexander Graham Bell é creditado com a invenção do telefone e obteve a patente em 1876."
+    },
+    {
+        "id": 78,
+        "pergunta": "Quantos lados tem um icosaedro regular?",
+        "opcoes": [
+            "12",
+            "16",
+            "20",
+            "24"
+        ],
+        "resposta": 3,
+        "categoria": "Geral",
+        "dificuldade": "difícil",
+        "explicacao": "Um icosaedro regular é um poliedro com 20 faces triangulares equiláteras."
+    },
+    {
+        "id": 79,
+        "pergunta": "Qual é o nome do conjunto de leis que rege o movimento dos planetas?",
+        "opcoes": [
+            "Leis de Newton",
+            "Leis de Kepler",
+            "Leis de Galileu",
+            "Leis de Copérnico"
+        ],
+        "resposta": 2,
+        "categoria": "Geral",
+        "dificuldade": "difícil",
+        "explicacao": "As três Leis de Kepler descrevem o movimento orbital dos planetas em torno do Sol."
+    },
+    {
+        "id": 80,
+        "pergunta": "Qual é o nome do teorema que afirma que num triângulo retângulo a² + b² = c²?",
+        "opcoes": [
+            "Teorema de Tales",
+            "Teorema de Euclides",
+            "Teorema de Pitágoras",
+            "Teorema de Fermat"
+        ],
+        "resposta": 3,
+        "categoria": "Geral",
+        "dificuldade": "difícil",
+        "explicacao": "O Teorema de Pitágoras estabelece a relação entre os catetos (a, b) e a hipotenusa (c) num triângulo retângulo."
     }
 ]
