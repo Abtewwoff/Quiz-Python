@@ -4,5 +4,19 @@
         "points": 1,
         "total": 4,
         "diff": "facil"
+    },
+    {
+        "nom": "Ab",
+        "points": 2,
+        "total": 4,
+        "diff": "facil",
+        "cat": "Toutes"
+    },
+    {
+        "nom": "tg",
+        "points": 1,
+        "total": 1,
+        "diff": "dif\u00edcil",
+        "cat": "Literatura"
     }
 ]
