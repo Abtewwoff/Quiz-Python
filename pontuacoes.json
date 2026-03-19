@@ -18,5 +18,19 @@
         "total": 1,
         "diff": "dif\u00edcil",
         "cat": "Literatura"
+    },
+    {
+        "nom": "TGS",
+        "points": 0,
+        "total": 1,
+        "diff": "facil",
+        "cat": "Ci\u00eancia"
+    },
+    {
+        "nom": "dsd",
+        "points": 0,
+        "total": 1,
+        "diff": "m\u00e9dio",
+        "cat": "Geral"
     }
 ]
