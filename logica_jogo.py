@@ -1,53 +1,53 @@
 import json
 import random
 
-def lire_json(fichier):
+def ler_json(ficheiro):
     try:
-        f = open(fichier, "r", encoding="utf-8")
-        donnees = json.load(f)
+        f = open(ficheiro, "r", encoding="utf-8")
+        dados = json.load(f)
         f.close()
-        return donnees
+        return dados
     except FileNotFoundError:
-        print("Fichier introuvable")
+        print("Ficheiro não encontrado")
         return []
 
-def sauvegarder_score(fichier, nom, points, total, diff, cat):
-    scores = lire_json(fichier)
-    nouveau = {
-        "nom": nom,
-        "points": points,
+def salvar_pontuacao(ficheiro, nome, pontos, total, diff, cat):
+    pontuacoes = ler_json(ficheiro)
+    novo = {
+        "nome": nome,
+        "pontos": pontos,
         "total": total,
         "diff": diff,
         "cat": cat
     }
-    scores.append(nouveau)
-    f = open(fichier, "w", encoding="utf-8")
-    json.dump(scores, f, indent=4)
+    pontuacoes.append(novo)
+    f = open(ficheiro, "w", encoding="utf-8")
+    json.dump(pontuacoes, f, indent=4)
     f.close()
 
-def filtrer_questions(questions, cat, diff):
-    liste = []
-    for q in questions:
-        if cat != "Toutes" and q["categoria"] != cat:
+def filtrar_perguntas(perguntas, cat, diff):
+    lista = []
+    for q in perguntas:
+        if cat != "Todas" and q["categoria"] != cat:
             continue
 
-        if diff != "Toutes" and q["dificuldade"] != diff:
+        if diff != "Todas" and q["dificuldade"] != diff:
             continue
-        liste.append(q)
-    return liste
+        lista.append(q)
+    return lista
 
-def trier_score(element):
-    return element["points"]
+def ordenar_pontuacao(elemento):
+    return elemento["pontos"]
 
-def afficher_classement(fichier):
-    scores = lire_json(fichier)
-    if len(scores) == 0:
-        print("Aucun record")
+def mostrar_classificacao(ficheiro):
+    pontuacoes = ler_json(ficheiro)
+    if len(pontuacoes) == 0:
+        print("Nenhum recorde")
         return
-    scores.sort(key=trier_score, reverse=True)
-    print("\n--- CLASSEMENT TOP 10 ---")
+    pontuacoes.sort(key=ordenar_pontuacao, reverse=True)
+    print("\n--- CLASSIFICAÇÃO TOP 10 ---")
     i = 1
-    for s in scores[:10]:
-        print(i, "-", s["nom"], ":", s["points"], "/", s["total"], "(", s["diff"], "-", s.get("cat", "Toutes"), ")")
+    for p in pontuacoes[:10]:
+        print(i, "-", p["nome"], ":", p["pontos"], "/", p["total"], "(", p["diff"], "-", p.get("cat", "Todas"), ")")
         i = i + 1
     print("-------------------------\n")

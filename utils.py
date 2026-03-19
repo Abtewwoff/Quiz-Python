@@ -1,23 +1,23 @@
 import os
 
-def effacer():
+def limpar():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-def valider_numero(message, mini, maxi):
+def validar_numero(mensagem, minimo, maximo):
     while True:
-        saisie = input(message)
+        entrada = input(mensagem)
         try:
-            nombre = int(saisie)
-            if nombre >= mini and nombre <= maxi:
-                return nombre
+            numero = int(entrada)
+            if numero >= minimo and numero <= maximo:
+                return numero
             else:
-                print("faut que le nombre soit entre", mini, "et", maxi)
+                print("O número deve estar entre", minimo, "e", maximo)
         except ValueError:
-            print("faut Entrez un nombre valide")
+            print("Por favor, insira um número válido")
 
-def valider_texte(message):
+def validar_texto(mensagem):
     while True:
-        saisie = input(message).strip()
-        if saisie != "":
-            return saisie
-        print("Ceci ne peut pas être vide")
+        entrada = input(mensagem).strip()
+        if entrada != "":
+            return entrada
+        print("Isto não pode estar vazio")

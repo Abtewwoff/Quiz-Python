@@ -1,54 +1,54 @@
 import random
-from utils import effacer, valider_numero, valider_texte
-from logica_jogo import lire_json, sauvegarder_score, filtrer_questions, afficher_classement
+from utils import limpar, validar_numero, validar_texto
+from logica_jogo import ler_json, salvar_pontuacao, filtrar_perguntas, mostrar_classificacao
 
-def jouer():
-    questions = lire_json("perguntas.json")
-    if len(questions) == 0:
+def jogar():
+    perguntas = ler_json("perguntas.json")
+    if len(perguntas) == 0:
         return
 
-    effacer()
-    print("\n--- MATCH ---")
-    nom = valider_texte("Votre nom : ")
+    limpar()
+    print("\n--- PARTIDA ---")
+    nome = validar_texto("Seu nome: ")
 
-    print("\nChoisissez une categorie :")
-    print("1 - Geographie")
-    print("2 - Histoire")
-    print("3 - Science")
-    print("4 - Litterature")
-    print("5 - General")
-    print("6 - Toutes")
-    choix_cat = valider_numero("Votre choix : ", 1, 6)
-    if choix_cat == 1: cat = "Geografia"
-    elif choix_cat == 2: cat = "História"
-    elif choix_cat == 3: cat = "Ciência"
-    elif choix_cat == 4: cat = "Literatura"
-    elif choix_cat == 5: cat = "Geral"
-    else: cat = "Toutes"
+    print("\nEscolha uma categoria:")
+    print("1 - Geografia")
+    print("2 - História")
+    print("3 - Ciência")
+    print("4 - Literatura")
+    print("5 - Geral")
+    print("6 - Todas")
+    escolha_cat = validar_numero("Sua escolha: ", 1, 6)
+    if escolha_cat == 1: cat = "Geografia"
+    elif escolha_cat == 2: cat = "História"
+    elif escolha_cat == 3: cat = "Ciência"
+    elif escolha_cat == 4: cat = "Literatura"
+    elif escolha_cat == 5: cat = "Geral"
+    else: cat = "Todas"
 
-    print("\nChoisissez une difficulte :")
-    print("1 - Facile")
-    print("2 - Moyenne")
-    print("3 - Difficile")
-    print("4 - Toutes")
-    choix_diff = valider_numero("Votre choix : ", 1, 4)
-    if choix_diff == 1: diff = "facil"
-    elif choix_diff == 2: diff = "médio"
-    elif choix_diff == 3: diff = "difícil"
-    else: diff = "Toutes"
+    print("\nEscolha uma dificuldade:")
+    print("1 - Fácil")
+    print("2 - Média")
+    print("3 - Difícil")
+    print("4 - Todas")
+    escolha_diff = validar_numero("Sua escolha: ", 1, 4)
+    if escolha_diff == 1: diff = "facil"
+    elif escolha_diff == 2: diff = "médio"
+    elif escolha_diff == 3: diff = "difícil"
+    else: diff = "Todas"
 
-    questions_jeu = filtrer_questions(questions, cat, diff)
-    if len(questions_jeu) == 0:
-        print("Aucune question rencontree pour cette selection.")
+    perguntas_jogo = filtrar_perguntas(perguntas, cat, diff)
+    if len(perguntas_jogo) == 0:
+        print("Nenhuma pergunta encontrada para esta seleção.")
         return
 
-    random.shuffle(questions_jeu)
-    questions_jeu = questions_jeu[:5]
+    random.shuffle(perguntas_jogo)
+    perguntas_jogo = perguntas_jogo[:5]
 
-    points = 0
-    for q in questions_jeu:
-        effacer()
-        print("\nQuestion :")
+    pontos = 0
+    for q in perguntas_jogo:
+        limpar()
+        print("\nPergunta:")
         print(q["pergunta"])
         print("")
         print("1 -", q["opcoes"][0])
@@ -57,45 +57,45 @@ def jouer():
         print("4 -", q["opcoes"][3])
         print("")
 
-        rep = valider_numero("Votre reponse (1-4) : ", 1, 4)
-        index_rep = rep - 1
+        resp = validar_numero("Sua resposta (1-4): ", 1, 4)
+        indice_resp = resp - 1
 
-        if rep == q["resposta"]:
-            print("\nCorrect !")
-            points = points + 1
+        if resp == q["resposta"]:
+            print("\nCorreto!")
+            pontos = pontos + 1
         else:
-            print("\nFaux.")
-            bon_index = q["resposta"] - 1
-            print("La reponse etait :", q["opcoes"][bon_index])
+            print("\nIncorreto.")
+            indice_correto = q["resposta"] - 1
+            print("A resposta era:", q["opcoes"][indice_correto])
 
         if "explicacao" in q:
-            print("Explication :", q["explicacao"])
+            print("Explicação:", q["explicacao"])
 
-        input("\nEntree pour continuer...")
+        input("\nEnter para continuar...")
 
-    effacer()
-    print("\nPartie terminee !")
-    print("Score :", points, "/", len(questions_jeu))
+    limpar()
+    print("\nPartida terminada!")
+    print("Pontuação:", pontos, "/", len(perguntas_jogo))
 
-    sauvegarder_score("pontuacoes.json", nom, points, len(questions_jeu), diff, cat)
+    salvar_pontuacao("pontuacoes.json", nome, pontos, len(perguntas_jogo), diff, cat)
 
 def main():
     while True:
         print("\n--- MENU PRINCIPAL ---")
-        print("1 - Lancer une partie")
-        print("2 - Voir le classement")
-        print("3 - Sortir")
+        print("1 - Iniciar uma partida")
+        print("2 - Ver a classificação")
+        print("3 - Sair")
         print("----------------------")
 
-        choix = valider_numero("Votre choix : ", 1, 3)
+        escolha = validar_numero("Sua escolha: ", 1, 3)
 
-        if choix == 1:
-            jouer()
-        elif choix == 2:
-            afficher_classement("pontuacoes.json")
-            input("Entree pour revenir au menu...")
-        elif choix == 3:
-            print("Fin du jeu.")
+        if escolha == 1:
+            jogar()
+        elif escolha == 2:
+            mostrar_classificacao("pontuacoes.json")
+            input("Enter para voltar ao menu...")
+        elif escolha == 3:
+            print("Fim do jogo.")
             break
 
 if __name__ == "__main__":
