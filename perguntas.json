@@ -139,4 +139,285 @@
         "dificuldade": "médio",
         "explicacao": "A água é composta por 2 átomos de hidrogénio e 1 átomo de oxigénio, daí a fórmula H2O."
     }
+,
+    {
+        "id": 11,
+        "pergunta": "Qual é o maior deserto do mundo?",
+        "opcoes": [
+            "Deserto do Saara",
+            "Deserto de Gobi",
+            "Antártida",
+            "Deserto de Atacama"
+        ],
+        "resposta": 3,
+        "categoria": "Geografia",
+        "dificuldade": "médio",
+        "explicacao": "A Antártida é o maior deserto do mundo, pois um deserto é definido pela baixa precipitação, não pela temperatura."
+    },
+    {
+        "id": 12,
+        "pergunta": "Em que continente fica o Brasil?",
+        "opcoes": [
+            "América do Norte",
+            "América do Sul",
+            "África",
+            "Europa"
+        ],
+        "resposta": 2,
+        "categoria": "Geografia",
+        "dificuldade": "facil",
+        "explicacao": "O Brasil fica na América do Sul."
+    },
+    {
+        "id": 13,
+        "pergunta": "Quem foi o primeiro presidente dos Estados Unidos?",
+        "opcoes": [
+            "Abraham Lincoln",
+            "Thomas Jefferson",
+            "George Washington",
+            "John Adams"
+        ],
+        "resposta": 3,
+        "categoria": "História",
+        "dificuldade": "facil",
+        "explicacao": "George Washington foi o primeiro presidente dos EUA (1789-1797)."
+    },
+    {
+        "id": 14,
+        "pergunta": "Em que ano caiu o Muro de Berlim?",
+        "opcoes": [
+            "1987",
+            "1989",
+            "1991",
+            "1994"
+        ],
+        "resposta": 2,
+        "categoria": "História",
+        "dificuldade": "médio",
+        "explicacao": "O Muro de Berlim caiu em 9 de novembro de 1989."
+    },
+    {
+        "id": 15,
+        "pergunta": "Quem pintou a Mona Lisa?",
+        "opcoes": [
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Claude Monet"
+        ],
+        "resposta": 3,
+        "categoria": "História",
+        "dificuldade": "facil",
+        "explicacao": "A Mona Lisa foi pintada por Leonardo da Vinci no século XVI."
+    },
+    {
+        "id": 16,
+        "pergunta": "Qual civilização construiu as pirâmides de Gizé?",
+        "opcoes": [
+            "Incas",
+            "Astecas",
+            "Romanos",
+            "Egípcios"
+        ],
+        "resposta": 4,
+        "categoria": "História",
+        "dificuldade": "facil",
+        "explicacao": "As pirâmides foram construídas pelos antigos egípcios como túmulos para os faraós."
+    },
+    {
+        "id": 17,
+        "pergunta": "Em que ano começou a Primeira Guerra Mundial?",
+        "opcoes": [
+            "1912",
+            "1914",
+            "1918",
+            "1939"
+        ],
+        "resposta": 2,
+        "categoria": "História",
+        "dificuldade": "médio",
+        "explicacao": "A Primeira Guerra Mundial começou em 1914 após o assassinato do Arquiduque Francisco Fernando."
+    },
+    {
+        "id": 18,
+        "pergunta": "Quem escreveu 'Dom Quixote'?",
+        "opcoes": [
+            "Miguel de Cervantes",
+            "William Shakespeare",
+            "Victor Hugo",
+            "Dante Alighieri"
+        ],
+        "resposta": 1,
+        "categoria": "Literatura",
+        "dificuldade": "médio",
+        "explicacao": "'Dom Quixote' foi escrito pelo espanhol Miguel de Cervantes e publicado em 1605."
+    },
+    {
+        "id": 19,
+        "pergunta": "Qual é o autor de 'Romeu e Julieta'?",
+        "opcoes": [
+            "Charles Dickens",
+            "William Shakespeare",
+            "Oscar Wilde",
+            "Jane Austen"
+        ],
+        "resposta": 2,
+        "categoria": "Literatura",
+        "dificuldade": "facil",
+        "explicacao": "'Romeu e Julieta' é uma tragédia de William Shakespeare escrita no final do século XVI."
+    },
+    {
+        "id": 20,
+        "pergunta": "De que país é o autor Gabriel García Márquez?",
+        "opcoes": [
+            "México",
+            "Argentina",
+            "Colômbia",
+            "Espanha"
+        ],
+        "resposta": 3,
+        "categoria": "Literatura",
+        "dificuldade": "médio",
+        "explicacao": "Gabriel García Márquez, autor de 'Cem Anos de Solidão', era colombiano."
+    },
+    {
+        "id": 21,
+        "pergunta": "Quem escreveu 'O Principezinho' (Le Petit Prince)?",
+        "opcoes": [
+            "Antoine de Saint-Exupéry",
+            "Jules Verne",
+            "Albert Camus",
+            "Jean-Paul Sartre"
+        ],
+        "resposta": 1,
+        "categoria": "Literatura",
+        "dificuldade": "facil",
+        "explicacao": "O livro foi escrito pelo aviador francês Antoine de Saint-Exupéry em 1943."
+    },
+    {
+        "id": 22,
+        "pergunta": "Qual o nome do detetive criado por Arthur Conan Doyle?",
+        "opcoes": [
+            "Hercule Poirot",
+            "Sherlock Holmes",
+            "Arsène Lupin",
+            "Miss Marple"
+        ],
+        "resposta": 2,
+        "categoria": "Literatura",
+        "dificuldade": "facil",
+        "explicacao": "Sherlock Holmes é o famoso detetive londrino criado por Conan Doyle."
+    },
+    {
+        "id": 23,
+        "pergunta": "Qual é o planeta mais próximo do Sol?",
+        "opcoes": [
+            "Vénus",
+            "Marte",
+            "Mercúrio",
+            "Terra"
+        ],
+        "resposta": 3,
+        "categoria": "Ciência",
+        "dificuldade": "facil",
+        "explicacao": "Mercúrio é o planeta mais próximo do Sol no Sistema Solar."
+    },
+    {
+        "id": 24,
+        "pergunta": "Qual é o gás mais abundante na atmosfera da Terra?",
+        "opcoes": [
+            "Oxigénio",
+            "Hidrogénio",
+            "Nitrogénio (Azoto)",
+            "Dióxido de Carbono"
+        ],
+        "resposta": 3,
+        "categoria": "Ciência",
+        "dificuldade": "médio",
+        "explicacao": "O nitrogénio compõe cerca de 78% da atmosfera terrestre."
+    },
+    {
+        "id": 25,
+        "pergunta": "Quantos ossos tem o corpo humano adulto?",
+        "opcoes": [
+            "206",
+            "180",
+            "250",
+            "300"
+        ],
+        "resposta": 1,
+        "categoria": "Ciência",
+        "dificuldade": "difícil",
+        "explicacao": "Um adulto tem normalmente 206 ossos, enquanto os bebés nascem com mais, que se fundem ao crescer."
+    },
+    {
+        "id": 26,
+        "pergunta": "Qual é a cor da caixa preta dos aviões?",
+        "opcoes": [
+            "Preto",
+            "Azul",
+            "Branco",
+            "Laranja"
+        ],
+        "resposta": 4,
+        "categoria": "Geral",
+        "dificuldade": "médio",
+        "explicacao": "As caixas pretas são pintadas de laranja fluorescente para facilitar a sua localização."
+    },
+    {
+        "id": 27,
+        "pergunta": "Quantos segundos tem um minuto?",
+        "opcoes": [
+            "50",
+            "60",
+            "100",
+            "120"
+        ],
+        "resposta": 2,
+        "categoria": "Geral",
+        "dificuldade": "facil",
+        "explicacao": "Um minuto tem 60 segundos."
+    },
+    {
+        "id": 28,
+        "pergunta": "Qual é o instrumento musical que tem 88 teclas?",
+        "opcoes": [
+            "Violino",
+            "Guitarra",
+            "Piano",
+            "Flauta"
+        ],
+        "resposta": 3,
+        "categoria": "Geral",
+        "dificuldade": "facil",
+        "explicacao": "Um piano padrão tem 88 teclas (52 brancas e 36 pretas)."
+    },
+    {
+        "id": 29,
+        "pergunta": "Qual é o esporte mais popular do mundo?",
+        "opcoes": [
+            "Basquetebol",
+            "Ténis",
+            "Críquete",
+            "Futebol"
+        ],
+        "resposta": 4,
+        "categoria": "Geral",
+        "dificuldade": "facil",
+        "explicacao": "O futebol é considerado o esporte mais popular, com bilhões de fãs."
+    },
+    {
+        "id": 30,
+        "pergunta": "Quantos fusos horários tem a Rússia?",
+        "opcoes": [
+            "3",
+            "11",
+            "9",
+            "5"
+        ],
+        "resposta": 2,
+        "categoria": "Geral",
+        "dificuldade": "difícil",
+        "explicacao": "A Rússia tem 11 fusos horários devido à sua enorme extensão territorial."
+    }
 ]
